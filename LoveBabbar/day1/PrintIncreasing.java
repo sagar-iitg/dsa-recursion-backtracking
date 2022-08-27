@@ -1,4 +1,4 @@
-package code;
+package day1;
 
 public class PrintIncreasing {
 
