@@ -1,0 +1,35 @@
+
+
+//recursion 
+static void PrintLinkedList(LinkedList head){
+
+
+
+    if(head==null){
+        return;
+    }
+
+    sout(head.val);
+    PrintLinkedList(head.next)
+
+}
+
+void printKFromEnd(Node head,int k){
+
+
+    if(head==null)
+        return
+
+    printKFromEnd(head.next,k);
+
+    //wapas
+    k--;
+    if(k==0){
+        sout(head.data);
+        //return;
+
+    }
+   
+
+
+}
