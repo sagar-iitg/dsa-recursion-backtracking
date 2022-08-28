@@ -8,6 +8,9 @@ public class PrintIncreasing {
 
     }
 
+    /**
+     * @param n
+     */
     static void Increasing(int n) {
 
         if (n == 0)

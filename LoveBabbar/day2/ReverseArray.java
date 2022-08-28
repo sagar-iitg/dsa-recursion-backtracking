@@ -9,7 +9,7 @@ public class ReverseArray {
 
     }
 
-    static void reverse(int arr[], int index) {
+    private static void reverse(int arr[], int index) {
 
         // base
         if (index == -1) {

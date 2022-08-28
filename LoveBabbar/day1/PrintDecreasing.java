@@ -10,9 +10,14 @@ public class PrintDecreasing {
 
     static void Decreasing(int n) {
 
+        // base
         if (n == 0)
             return;
+
+        // one case solved
         System.out.print(n + " ");
+
+        // recursive relation
         Decreasing(n - 1);
     }
 
