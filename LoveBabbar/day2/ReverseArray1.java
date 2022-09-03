@@ -16,7 +16,7 @@ public class ReverseArray1 {
             return;
         }
        
-        reverse(arr, size, index + 1);
+        reverse(arr, size, index+1);
         System.out.print(arr[index] + " ");
     }
 

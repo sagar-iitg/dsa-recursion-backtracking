@@ -32,4 +32,39 @@ void printKFromEnd(Node head,int k){
    
 
 
+
 }
+
+Node reverseLinkedList(Node head){
+
+
+
+
+
+        //head==null--> means linked list is empty
+        //head.next==null  --> single node in linked list
+
+
+
+            //base case
+            if(head==null || head.next==null)
+                return head;
+            //recursive solution
+            rec_ans=reverseLinkedList(head.next);
+            
+            head.next.next= head;
+            head.next=null;
+
+            return rec_ans;
+
+
+
+
+
+    
+
+}
+
+
+//Reverse Linked list in a group of k;
+

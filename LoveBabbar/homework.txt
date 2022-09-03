@@ -1,6 +1,13 @@
 haid recursion ?
 tail recursion ?
 
+Diameter of tree?
+tree is balanced or not?
+convert tree into its mirror tree
+check if binary tree is sumtree or not?
+print all root to leaf Node
+
+
 
 
 

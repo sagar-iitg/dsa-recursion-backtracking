@@ -1,0 +1,12 @@
+
+1.
+
+void solve(Node root)
+{
+
+    if(root==null){
+        return;
+    }
+    solve(root.right);
+    
+}
