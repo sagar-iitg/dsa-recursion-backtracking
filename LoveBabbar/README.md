@@ -63,6 +63,15 @@ Leaf Node
 
 
 
+------------------------------
+
+Subsequence of String
+maintain relative oredering
+
+
+
+
+
 
 
 

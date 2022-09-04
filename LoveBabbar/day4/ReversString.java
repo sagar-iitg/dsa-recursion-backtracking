@@ -20,7 +20,7 @@ public class ReversString {
         if (index== size) {
             return;
         }
-        System.out.println(index);
+        //System.out.println(index);
         solve(s, size,index+1);
         
         System.out.print(s.charAt(index));
