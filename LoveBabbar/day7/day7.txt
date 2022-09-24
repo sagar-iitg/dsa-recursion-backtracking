@@ -1,0 +1,13 @@
+
+
+
+solve(str,i,output)
+{
+
+
+    //Base Case
+
+
+
+}
+

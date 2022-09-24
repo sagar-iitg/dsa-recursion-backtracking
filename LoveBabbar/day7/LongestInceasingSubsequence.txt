@@ -1,0 +1,19 @@
+[0,3,1,6,2,2,7]
+
+[0,3,5,7]
+
+[0,1,6,7]
+
+inclusion and exclusion pattern
+
+
+Recursion//DP --Dynamic Programming
+
+1. Subsequence
+2. Longest Increasing Subsequence
+3. Longest Common Subsequences
+4. Longest Arithmetic Subsequence
+5. Distinct Subsequence
+
+In subsequence always maintain relative ordering
+
