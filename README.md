@@ -4,7 +4,7 @@ String
 
 Recursion//DP --Dynamic Programming
 
-1. Subsequence
+1. Is Subsequence
 2. Longest Increasing Subsequence
 3. Longest Common Subsequences
 4. Longest Arithmetic Subsequence
@@ -27,5 +27,8 @@ ac
 bc
 abc
 ""
+
+
+Longest Increasing Subsequence
 
 
