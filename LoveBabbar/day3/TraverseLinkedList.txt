@@ -1,7 +1,8 @@
 
 
 //recursion 
-static void PrintLinkedList(LinkedList head){
+static void PrintLinkedList(LinkedList head)
+{
 
 
 
