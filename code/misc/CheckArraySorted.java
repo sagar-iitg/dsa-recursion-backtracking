@@ -1,4 +1,4 @@
-package code;
+package misc;
 
 public class CheckArraySorted {
 
