@@ -12,3 +12,9 @@ when a function call itself is called Recursion
 * Most of the time in base case we need to write return keyword
 
 
+### HEAD RECURSION
+* BaseCase -> Recursive relation -> Processing
+
+### Tail Recursion
+* BaseCase-> Processing -> Recursive relation
+
