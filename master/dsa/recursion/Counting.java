@@ -1,10 +1,15 @@
 package master.dsa.recursion;
 
+import java.util.Scanner;
+
 public class Counting {
 
     public static void main(String[] args) {
         
-        solve(5);
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        solve(n);
+        sc.close();
     }
     private static void solve(int n)
     {
