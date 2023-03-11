@@ -1,0 +1,11 @@
+What is Time Complexity?
+
+Time taken by algorithm.
+Time required to run algorithm as a function of input.
+
+
+
+
+
+
+
