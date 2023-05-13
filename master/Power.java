@@ -1,4 +1,4 @@
-package master.dsa.recursion;
+package master;
 
 public class Power {
     

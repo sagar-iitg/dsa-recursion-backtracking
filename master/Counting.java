@@ -1,5 +1,4 @@
-package master.dsa.recursion;
-
+package master;
 import java.util.Scanner;
 
 public class Counting {

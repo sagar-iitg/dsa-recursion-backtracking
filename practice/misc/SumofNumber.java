@@ -1,4 +1,5 @@
-package misc.recursion;
+package misc;
+
 
 
 class SumofNumber{
