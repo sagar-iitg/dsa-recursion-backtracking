@@ -16,6 +16,8 @@ public class PrintExample{
         printArray(arr,0);
 
     }
+
+    //tail recursion
     static void printArray(int[] arr,int index)
     {
         if(index==arr.length)
