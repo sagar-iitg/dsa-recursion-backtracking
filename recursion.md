@@ -39,8 +39,8 @@ Recursion steps:
 
 1.BaseCase(mandatory)
 why infinite->memory(stack overflow)
-2.Recursion relation (mandatory)
-3.processing--> not mandatory
+2.Recursive relation (mandatory)
+3.operation/processing--> not mandatory
 
 Eg:
 fibonacci Series
@@ -89,6 +89,10 @@ Leaf Node
 Subsequence of String
 maintain relative oredering
 
+
+
+When to apply recursion?
+Bigger probblem depends on solution of subproblems
 
 
 
