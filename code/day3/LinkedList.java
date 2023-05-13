@@ -30,12 +30,12 @@ public class LinkedList {
 
         // If the Linked List is empty,
         // then make the new node as head
-        if (list.head == null) {
-            list.head = new_node;
+        if (LinkedList.head == null) {
+            LinkedList.head = new_node;
         } else {
             // Else traverse till the last node
             // and insert the new_node there
-            Node last = list.head;
+            Node last = LinkedList.head;
             while (last.next != null) {
                 last = last.next;
             }
@@ -50,7 +50,7 @@ public class LinkedList {
 
     // Method to print the LinkedList.
     public static void printList(LinkedList list) {
-        Node currNode = list.head;
+        Node currNode = LinkedList.head;
 
         System.out.print("LinkedList: ");
 
