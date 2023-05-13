@@ -9,6 +9,8 @@ public class PrintDecreasing {
         solve(n);
 
     }
+
+    //tail recursion
     static void solve(int n)
     {
         if(n==0)
