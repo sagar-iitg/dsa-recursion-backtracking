@@ -10,11 +10,11 @@ public class ArrayExample {
     public static void main(String[] args) {
         
         int[] arr={10 ,2,3};
-        //ArrayList<Integer> ans=new ArrayList<>();
-        // printArrayMethod1(arr,0,ans);
-        // printArrayMethod2(arr,0);
-        // System.out.println(ans);
-        // System.out.println(ans2);
+        ArrayList<Integer> ans=new ArrayList<>();
+        printArrayMethod1(arr,0,ans);
+        printArrayMethod2(arr,0);
+        System.out.println(ans);
+        System.out.println(ans2);
         
 
     }
