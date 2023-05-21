@@ -12,13 +12,14 @@ public class ClientLinkedList {
         ll.addLast(3);
         ll.addLast(2);
         ll.print();
+        
 
-        System.out.println(LinkedList.head.data);
-        ll.printUsingRecursion(LinkedList.head);
-        System.out.println();
-        ll.printReverseUsingRecursion(LinkedList.head);
-        System.out.println();
-        ll.printUsingRecursion(LinkedList.head);
+        // System.out.println(LinkedList.head.data);
+        // ll.printUsingRecursion(LinkedList.head);
+        // System.out.println();
+        // ll.printReverseUsingRecursion(LinkedList.head);
+        // System.out.println();
+        // ll.printUsingRecursion(LinkedList.head);
 
 
 

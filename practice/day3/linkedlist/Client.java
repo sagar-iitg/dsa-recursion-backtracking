@@ -13,7 +13,10 @@ public class Client {
         ll.print();
        // System.out.println( LinkedList.head);
        
-        ll.reverse();
+        //ll.reverse();
+        
+
+
         ll.print();
         //System.out.println( ll.getLength());
        

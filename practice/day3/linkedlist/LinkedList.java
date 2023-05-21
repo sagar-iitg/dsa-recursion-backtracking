@@ -1,24 +1,28 @@
 package linkedlist;
 
+
+  //inner static class
+class Node{
+
+    int data;
+    Node next;
+
+    public Node(int data)
+    {
+        this.data=data;
+        this.next=null;
+
+    }
+}
+
+
 public class LinkedList{
 
-    public static Node head;
-    public static Node tail;
-    public static int size;
+    Node head;
+    Node tail;
+    int size;
 
-    //inner static class
-    public static class Node{
-
-        int data;
-        Node next;
-
-        public Node(int data)
-        {
-            this.data=data;
-            this.next=null;
-
-        }
-    }
+  
     
     public void addFirst(int data)
     {
@@ -234,36 +238,8 @@ public class LinkedList{
 
     }
 
-    //tail recursion
-    void printUsingRecursion(Node head)
-    {
-
-        //base case
-        if(head==null)
-            return;
-        
-        System.out.print(head.data+" ");
-
-        printUsingRecursion(head.next);
-
-
-    }
   
-    void printReverseUsingRecursion(Node head)
-    {
-
-        Node temp=head;
-        //base case
-        if(temp==null)
-            return;
-        printReverseUsingRecursion(temp.next);
-        
-        System.out.print(temp.data+" ");
-
-       
-
-
-    }
+    
    
     public void print()
     {
@@ -404,6 +380,30 @@ public class LinkedList{
        
     }
 
+
+    
+    //tail recursion
+    Node printReverseUsingRecursion(Node head)
+    {
+
+        //base case
+        if(head==null || head.next==null)
+            return head;
+        
+        //System.out.print(head.data+" ");
+
+        Node chotHead=printReverseUsingRecursion(head.next);
+        head.next.next=head;
+        head.next=null;
+        return chotHead;
+
+
+
+    }
+    void reverseRecursion(){
+            head=printReverseUsingRecursion(head);
+    }
+
     public static void main(String[] args) {
         
         LinkedList ll=new LinkedList();
@@ -415,8 +415,21 @@ public class LinkedList{
         ll.addFirst(1);
         ll.addLast(3);
         ll.addLast(4);
+        ll.addFirst(0);
         ll.print();
-        System.out.println( ll.findMid(head).data);
+        ll.head=ll.printReverseUsingRecursion(ll.head);
+        ll.print();
+        // ll.reverseRecursion();
+        // ll.print();
+        //ll.findMid(head);
+
+       
+
+
+       
+        
+
+        //System.out.println( ll.findMid(head).data);
        
         // System.out.println();
         // ll.add(9, 0);
