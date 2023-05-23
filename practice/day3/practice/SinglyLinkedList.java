@@ -1,4 +1,4 @@
-package practice;
+package day3.practice;
 
 
 

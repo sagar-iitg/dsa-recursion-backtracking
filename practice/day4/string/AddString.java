@@ -1,4 +1,4 @@
-package string;
+package day4.string;
 
 import java.util.ArrayList;
 import java.util.Collections;

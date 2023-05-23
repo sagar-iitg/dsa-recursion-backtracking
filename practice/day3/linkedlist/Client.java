@@ -1,4 +1,4 @@
-package linkedlist;
+package day3.linkedlist;
 
 public class Client {
     public static void main(String[] args) {

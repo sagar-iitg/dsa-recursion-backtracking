@@ -1,4 +1,4 @@
-package string;
+package day4.string;
 
 public class ReverseString {
 

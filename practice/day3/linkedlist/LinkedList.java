@@ -1,4 +1,4 @@
-package linkedlist;
+package day3.linkedlist;
 
 
   //inner static class

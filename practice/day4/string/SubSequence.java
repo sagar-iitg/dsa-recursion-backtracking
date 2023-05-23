@@ -1,7 +1,7 @@
-package string;
+package day4.string;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+
 
 public class SubSequence {
 
@@ -12,7 +12,7 @@ public class SubSequence {
         String str="abc";
         String ans="";
         
-        ArrayList<String> res=new ArrayList<>();
+        //ArrayList<String> res=new ArrayList<>();
         
     //    printSubSequence(str, 0, ans,res);
     //    System.out.println(res);
