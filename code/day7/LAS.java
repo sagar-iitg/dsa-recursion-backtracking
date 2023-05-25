@@ -34,7 +34,7 @@ public class LAS {
      static int solve(int[] arr,int i,int diff)
      {
 
-        if(i<0)
+        if(i<0) 
         {
 
             return 0;
