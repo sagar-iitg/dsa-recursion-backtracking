@@ -26,6 +26,8 @@ public class SubSequence {
     }
 
 
+    //inclusion and exculsion pattern
+    
     static void printSubSequence(String str,int index, String ans,ArrayList<String> res)
     {
 
