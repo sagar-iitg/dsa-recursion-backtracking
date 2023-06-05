@@ -7,7 +7,7 @@ public class Power {
         
 
 
-        int res=pow(2,11);
+        int res=pow(5,3);
         System.out.println(res);
 
 
