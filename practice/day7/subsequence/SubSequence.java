@@ -38,8 +38,11 @@ public class SubSequence {
             }
 
 
+            //include ki call
             printSubSequence(str, index+1, ans+str.charAt(index),res);
             
+
+            //exclude ki call
             printSubSequence(str, index+1, ans,res);
     }
 
