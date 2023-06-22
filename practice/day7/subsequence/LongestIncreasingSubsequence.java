@@ -25,9 +25,9 @@ public class LongestIncreasingSubsequence {
         }
 
         //exclude
-            int notpick=0+solve(arr, n, curr+1, prev);
+        int notpick=0+solve(arr, n, curr+1, prev);
         
-            return Math.max(pick, notpick);
+        return Math.max(pick, notpick);
 
         
 
