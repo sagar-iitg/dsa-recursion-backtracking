@@ -1,7 +1,5 @@
 package maze;
 
-import java.nio.file.Path;
-
 public class MazeVariation2 {
 
     public static void main(String[] args) {
