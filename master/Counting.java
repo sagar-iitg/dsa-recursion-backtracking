@@ -7,6 +7,7 @@ public class Counting {
         
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
+        System.out.println("-----");
         solve(n);
         sc.close();
     }

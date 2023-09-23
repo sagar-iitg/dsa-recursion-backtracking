@@ -1,4 +1,4 @@
-package day1;
+package backtracking.day1;
 
 import java.util.ArrayList;
 import java.util.List;
