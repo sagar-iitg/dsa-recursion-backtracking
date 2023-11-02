@@ -5,12 +5,12 @@ public class Factorial {
 
     public static void main(String[] args) {
         
-        int input=10;
+        int input=5;
         int res=fibo(input);
         System.out.println(res);
 
     }
-    static int fibo(int n)
+    private static int fibo(int n)
     {
         //handling invalid input
         if(n<0)

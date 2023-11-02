@@ -42,7 +42,7 @@ public class PrintExample{
     {
 
         printIncreasingOrder(n);
-       printDecreasingOrder(n);
+        printDecreasingOrder(n);
      
  
       
