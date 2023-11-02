@@ -1,4 +1,4 @@
-package day4;
+package com.sagar.practice.day4;
 
 
 public class Main {
