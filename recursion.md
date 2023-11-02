@@ -95,7 +95,15 @@ When to apply recursion?
 Bigger probblem depends on solution of subproblems
 
 
-
+* function is calling another function
+* function calls go into stack memory
+* how function calls work in programming languages
+*  main function -> 
+* while the function is not finished executing it will remain in stack
+* main is the first function which one will go into stack
+* primitives also stored in stack memory
+* when a function finishes executing it is removed from the stack and flow of program is restored from where it was called
+* 
 
 
 
