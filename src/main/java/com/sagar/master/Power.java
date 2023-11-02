@@ -1,4 +1,4 @@
-package master;
+package com.sagar.master;
 
 public class Power {
     
