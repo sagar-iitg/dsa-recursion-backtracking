@@ -1,4 +1,4 @@
-package day2;
+package com.sagar.practice.day2;
 
 public class MaxInArray {
 

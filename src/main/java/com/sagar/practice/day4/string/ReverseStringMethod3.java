@@ -1,4 +1,4 @@
-package day4.string;
+package com.sagar.practice.day4.string;
 
 public class ReverseStringMethod3 {
     

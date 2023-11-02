@@ -1,4 +1,4 @@
-package day6;
+package com.sagar.practice.day6;
 
 public class ArrayPrinting {
 

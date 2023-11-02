@@ -1,4 +1,4 @@
-package day7.subsequence;
+package com.sagar.practice.day7.subsequence;
 
 public class IsSubSequence {
 

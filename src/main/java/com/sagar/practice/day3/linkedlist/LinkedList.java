@@ -1,4 +1,4 @@
-package day3.linkedlist;
+package com.sagar.practice.day3.linkedlist;
 
 
   //inner static class

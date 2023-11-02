@@ -1,4 +1,4 @@
-package misc;
+package com.sagar.practice.misc;
 
 public class SwapString {
 
