@@ -6,12 +6,12 @@ public class FirstTarget {
 
 
     public static void main(String[] args) {
-        int arr[]={10,6,3,4,6,6,1,0};
+        int[] arr ={10,6,3,4,6,6,1,0};
         int res=solve(arr,0,25);
         System.out.println(res);
     }
 
-    static int solve(int arr[],int index,int target)
+    private static int solve(int[] arr, int index, int target)
     {
 
 
