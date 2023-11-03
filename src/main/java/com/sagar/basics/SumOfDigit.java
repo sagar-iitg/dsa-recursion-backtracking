@@ -12,9 +12,9 @@ public class SumOfDigit {
 
         if(n==0) return 0;
 
-        int lastDigit=n%10;
-        int removeLastDigit=n/10;
-        return  lastDigit+sumOfDigit(removeLastDigit);
+        int lastDigitFromInteger=n%10;
+        int removeLastDigitFromInteger=n/10;
+        return  lastDigitFromInteger+sumOfDigit(removeLastDigitFromInteger);
 
     }
 
