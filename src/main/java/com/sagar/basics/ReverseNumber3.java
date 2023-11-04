@@ -5,7 +5,7 @@ public class ReverseNumber3 {
 
     public static void main(String[] args) {
 
-        int n=123450678;
+        int n=8;
         int noOfDigits=(int)Math.log10(n)+1;
         System.out.println(noOfDigits);
         int ans=reverseNumber(n,noOfDigits);
