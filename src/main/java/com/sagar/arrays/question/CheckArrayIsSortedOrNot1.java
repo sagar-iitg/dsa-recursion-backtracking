@@ -11,6 +11,7 @@ public class CheckArrayIsSortedOrNot1 {
     private static boolean sortedArray(int[] arr, int index) {
         if (index == arr.length-1) return true;
 
+        //short-circuiting
       return arr[index] <=arr[index + 1] && sortedArray(arr, index + 1);
 
     }
