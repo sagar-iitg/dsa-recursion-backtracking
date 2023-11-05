@@ -14,7 +14,7 @@ public class LinearSearch {
 
         if(index==arr.length) return false;
 
-        if (arr[index]==target) return true;
-        return solve(arr,target,index+1);
+        //if (arr[index]==target) return true;
+        return arr[index]==target || solve(arr,target,index+1);
     }
 }
