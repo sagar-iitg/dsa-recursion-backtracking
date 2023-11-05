@@ -7,7 +7,7 @@ Best solution find out -
 explore all possible path
 
 
-BT is a technique to find best solution from out of all possible solution can be.
+BT is a technique to find the best solution from out of all possible solution can be.
 
 No of permutation n!
 Permutation of abc
