@@ -9,6 +9,8 @@ public class CheckArrayIsSortedOrNot1 {
     }
 
     private static boolean sortedArray(int[] arr, int index) {
+
+        // if you are at last index--- Base Condition
         if (index == arr.length-1) return true;
 
         //short-circuiting
