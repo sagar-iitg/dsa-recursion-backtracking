@@ -8,7 +8,7 @@ public class Pattern2 {
 
     private static void solve(int r, int c) {
         if(r==0) return;
-        
+
         if(c<r) {
             solve(r,c+1);
             System.out.print("*");
