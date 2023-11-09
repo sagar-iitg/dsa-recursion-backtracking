@@ -2,12 +2,13 @@ package com.sagar.sort;
 
 import java.util.Arrays;
 
+
 public class MergeSort {
 
     public static void main(String[] args) {
         int[] arr={10,9,1,3,45,3,2};
-       int[] res=mergeSort(arr);
-        System.out.println(Arrays.toString(res));
+        arr=mergeSort(arr);
+        System.out.println(Arrays.toString(arr));
     }
 
     private static int[] mergeSort(int[] arr) {
