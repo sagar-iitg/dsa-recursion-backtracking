@@ -20,16 +20,16 @@ public class RemoveCharacterFromString {
 
     }
 
-    private static void skipCharacter(String str, int index, StringBuilder ans, char ch) {
-        if(index==str.length()) return;
+    private static void skipCharacter(String up, int index, StringBuilder p, char ch) {
+        if(index==up.length()) return;
 
-        if(str.charAt(index)!=ch)
+        if(up.charAt(index)!=ch)
         {
-            ans.append(str.charAt(index));
-            skipCharacter(str,index+1,ans,ch);
+            p.append(up.charAt(index));
+            skipCharacter(up,index+1,p,ch);
         }
         else{
-            skipCharacter(str,index+1,ans,ch);
+            skipCharacter(up,index+1,p,ch);
 
         }
 
