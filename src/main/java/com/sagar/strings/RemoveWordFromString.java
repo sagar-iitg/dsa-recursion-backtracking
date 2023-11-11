@@ -10,6 +10,7 @@ public class RemoveWordFromString {
         System.out.println(skipWord(str,"apple"));
         //method2
         skipWord1("",str,"apple");
+        //method3
         System.out.println( skipWord2("",str,"apple"));
     }
 
