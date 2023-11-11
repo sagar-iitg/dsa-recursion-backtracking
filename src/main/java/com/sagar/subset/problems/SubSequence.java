@@ -1,4 +1,4 @@
-package com.sagar.recursion.strings;
+package com.sagar.subset.problems;
 
 import java.util.ArrayList;
 
