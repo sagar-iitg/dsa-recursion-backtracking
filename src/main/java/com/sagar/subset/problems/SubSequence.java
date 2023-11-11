@@ -62,7 +62,7 @@ public class SubSequence {
     }
 
 
-
+    
     //diffcult one creating inside --
     static ArrayList<String> subSeqReturn(String p,String up)
     {
