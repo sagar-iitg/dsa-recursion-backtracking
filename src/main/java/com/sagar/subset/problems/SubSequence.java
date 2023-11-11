@@ -1,54 +1,88 @@
 package com.sagar.subset.problems;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class SubSequence {
     
 
 
     public static void main(String[] args) {
-        subseq("", "abc");
-        System.out.println(subSeqReturn("", "abc"));
+
+
+        String str="abcd";
+        //method 1
+        subseq("", str);
+
+        //method 2
+
+        List<String> ans=new ArrayList<>();
+        subseq("", str,ans);
+        System.out.println(ans);
+
+        //method 3
+        System.out.println(subSeqReturn("", str));
         
 
     }
 
-    
-    static void subseq(String ans,String str)
+
+    private static void subseq(String p,String up,List<String> ans)
     {
-        if(str.isEmpty())
+        if(up.isEmpty())
         {
-            System.out.println(ans);
+            //System.out.println(p);
+            ans.add(p);
             return;
         }
 
-         char ch=str.charAt(0);
-         subseq(ans, str.substring(1));
-         subseq(ans+ch, str.substring(1));
-       
+        char ch=up.charAt(0);
 
+        //include
+        subseq(p+ch, up.substring(1),ans);
+        //exclude
+        subseq(p, up.substring(1),ans);
+
+    }
+    private static void subseq(String p,String up)
+    {
+        if(up.isEmpty())
+        {
+            System.out.println(p);
+            return;
+        }
+
+         char ch=up.charAt(0);
+
+        //include
+        subseq(p+ch, up.substring(1));
+        //exclude
+         subseq(p, up.substring(1));
 
     }
 
 
 
-    static ArrayList<String> subSeqReturn(String ans,String str)
+    //diffcult one creating inside --
+    static ArrayList<String> subSeqReturn(String p,String up)
     {
-        if(str.isEmpty())
+        if(up.isEmpty())
         {
          
 
                 ArrayList<String> list=new ArrayList<>();
-                list.add(ans);
+                list.add(p);
                 return list;
 
         }
 
-         char ch=str.charAt(0);
-         ArrayList<String> left=subSeqReturn(ans, str.substring(1));
-         ArrayList<String> right=subSeqReturn(ans+ch, str.substring(1));
-         left.addAll(right);
-         return left;
+         char ch=up.charAt(0);
+
+         ArrayList<String> right=subSeqReturn(p+ch, up.substring(1));
+         ArrayList<String> left=subSeqReturn(p, up.substring(1));
+
+         right.addAll(left);
+         return right;
 
 
 
