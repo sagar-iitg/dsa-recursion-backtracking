@@ -15,7 +15,6 @@ public class RemoveCharacterFromString {
         System.out.println( skipCharacter1("",str));
         //method 3
         skipCharacter2("",str);
-
         //method 4
         System.out.println(skipCharacter3(str));
 
