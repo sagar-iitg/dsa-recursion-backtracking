@@ -2,7 +2,7 @@ package com.sagar.sort;
 
 import java.util.Arrays;
 
-public class BubbleSort {
+public class RecursiveBubbleSort {
 
     public static void main(String[] args) {
 
