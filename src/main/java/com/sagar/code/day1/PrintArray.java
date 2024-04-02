@@ -1,4 +1,4 @@
-package day1;
+package com.sagar.code.day1;
 
 public class PrintArray {
 
