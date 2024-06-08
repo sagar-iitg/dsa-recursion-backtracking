@@ -4,7 +4,7 @@ public class ProductOfDigit {
 
     public static void main(String[] args) {
 
-        int res=productOfDigit(55);
+        int res=productOfDigit(58);
         System.out.println(res);
     }
 
