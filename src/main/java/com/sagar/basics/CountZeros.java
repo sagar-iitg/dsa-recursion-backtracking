@@ -4,7 +4,7 @@ public class CountZeros {
 
     public static void main(String[] args) {
         
-        int res=count(10000);
+        int res=count(100001);
         System.out.println(res);
     }
 
