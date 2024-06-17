@@ -1,4 +1,4 @@
-package com.sagar.subset.problems;
+package com.sagar.subsequence;
 
 import java.util.ArrayList;
 import java.util.List;
