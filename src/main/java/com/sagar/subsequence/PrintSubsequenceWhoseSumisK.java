@@ -15,6 +15,7 @@ public class PrintSubsequenceWhoseSumisK {
         {
             if(s==sum){
                 System.out.println(temp);
+               // System.exit(0);
 
             }
             return;
@@ -31,3 +32,5 @@ public class PrintSubsequenceWhoseSumisK {
 
     }
 }
+
+
