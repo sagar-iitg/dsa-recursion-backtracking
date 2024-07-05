@@ -1,5 +1,7 @@
 package com.sagar.patterns;
 
+import java.util.HashMap;
+
 public class Pattern1 {
 
     public static void main(String[] args) {
@@ -18,4 +20,5 @@ public class Pattern1 {
 
         }
     }
+
 }
