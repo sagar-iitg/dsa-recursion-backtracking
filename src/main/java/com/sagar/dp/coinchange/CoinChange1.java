@@ -8,7 +8,6 @@ package com.sagar.dp.coinchange;
 public class CoinChange1 {
     public static void main(String[] args) {
 
-
         int[] arr={1,2,5};
         int amount=11;
         int res=coinChange(arr,amount);
@@ -28,10 +27,12 @@ public class CoinChange1 {
         //base condition
         if(amount==0) return 0;
 
+        //invalid answer
+        // can not make target
         if(amount<0) {
            return Integer.MAX_VALUE;
-
         }
+
         int mini=Integer.MAX_VALUE;
         for(int i=0;i<coins.length;i++){
             int ans=solveUsingRecursion(coins,amount-coins[i]);

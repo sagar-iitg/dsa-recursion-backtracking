@@ -12,10 +12,11 @@ public class ArrayPassing {
 
             System.out.println(i);
         }
+        System.out.println("---");
 
-        Arrays.copyOfRange(arr, 1, arr.length);
+        int[] ints = Arrays.copyOfRange(arr, 1, arr.length);
 
-        for (int i : arr) {
+        for (int i : ints) {
 
             System.out.println(i);
         }

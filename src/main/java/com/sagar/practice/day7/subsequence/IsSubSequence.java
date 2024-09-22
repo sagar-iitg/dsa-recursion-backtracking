@@ -4,7 +4,8 @@ public class IsSubSequence {
 
     public static void main(String[] args) {
         String s="abc";
-        String t="ahbgd";
+        String t="abgdch";
+        //s is subsequence of t
         boolean ans=solve(s,t);
         System.out.println(ans);
     }

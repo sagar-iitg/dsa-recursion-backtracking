@@ -1,4 +1,4 @@
-package day7;
+package com.sagar.code.day7;
 
 public class LIS {
 

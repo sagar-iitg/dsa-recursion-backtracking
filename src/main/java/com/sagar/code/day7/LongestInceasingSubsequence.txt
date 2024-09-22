@@ -9,7 +9,7 @@ inclusion and exclusion pattern
 
 Recursion//DP --Dynamic Programming
 
-1. Subsequence
+1. Print All Subsequence
 2. Longest Increasing Subsequence
 3. Longest Common Subsequences
 4. Longest Arithmetic Subsequence
