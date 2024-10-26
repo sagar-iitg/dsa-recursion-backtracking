@@ -6,7 +6,11 @@ import java.util.List;
 public class AllSubSequence {
     public static void main(String[] args) {
         String str="abc";
+
+        //a,b,c,ab,ac,abc;
+
         List<String> ans=new ArrayList<>();
+        //solve(str,"",0,res)
         solve(str,new StringBuilder(),0,ans);
         System.out.println(ans);
     }
