@@ -1,17 +1,18 @@
-package com.sagar.backtracking.day1;
+package com.sagar.practice.backtracking.day1;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class StringPermutation {
-    
+
 
     public static void main(String[] args) {
 
         String str="abc";
+        //all permutation in output list
         List<String> output=new ArrayList<>();
         printAllPermutation(0,output,str.toCharArray());
-        output.stream().forEach(System.out::println);
+        output.forEach(System.out::println);
     }
 
     private static void printAllPermutation(int index, List<String> output, char[] charArray) {
@@ -31,7 +32,7 @@ public class StringPermutation {
             //backtrack
             swap(charArray, index, j);
 
-            
+
         }
     }
 
@@ -41,5 +42,5 @@ public class StringPermutation {
         charArray[i]=charArray[j];
         charArray[j]=temp;
     }
-    
+
 }
