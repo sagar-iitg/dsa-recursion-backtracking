@@ -1,4 +1,4 @@
-package maze;
+package com.sagar.backtracking.maze;
 
 public class MazeVariation3 {
 
