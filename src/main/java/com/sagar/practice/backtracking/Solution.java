@@ -22,7 +22,7 @@ class Solution {
 
         for(int i=0;i<nums.length;i++){
             temp.add(nums[i]);
-            solve(ans,nums,target-nums[i],temp,i)
+            solve(ans,nums,target-nums[i],temp,i);
             temp.remove(temp.size()-1);
         }
     }
